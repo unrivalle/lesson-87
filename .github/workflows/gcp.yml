@@ -12,9 +12,9 @@ jobs:
       PROJECT_ID: cicd-396510 # Here is the project id which need to change 
     steps:
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
 
-    - uses: google-github-actions/setup-gcloud@v0    #gclode action 
+    - uses: google-github-actions/setup-gcloud@v3    #gclode action 
       with:
         service_account_key: ${{ secrets.SERVICE_ACCOUNT_KEY }}
         project_id: ${{ env.PROJECT_ID }}
