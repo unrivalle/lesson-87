@@ -2,7 +2,7 @@
 name: Build and Push Python Image to Google Cloud Platform
 on:
   push:
-    branches: [ main ]  #if any chnages happend in main branch it will trigger 
+    branches: [ main ]  #if any chnages happend in main branch it will trigger .
 jobs:
   build-push-gcr:
     name: Build and Push to GCP #arbitary name 
